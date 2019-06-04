@@ -65,6 +65,7 @@ header.header_back {
     background-image: url(images/img-quiz.png);
     color: #fff;
     text-transform: capitalize;
+    height: 100%;
     padding: 65px;
     background-repeat: round;
 }
@@ -227,7 +228,7 @@ p-0{
     color: #fff;
     text-transform: capitalize;
     padding: 50px;
-    height: 592px;
+    height: 100%;
     background-repeat: round;
 }
 .pad15 .lead{
@@ -260,9 +261,12 @@ p-0{
 }
 
 .right_content_cup p{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
+.right_content_cup p:nth-last-child(-n+2) {
+    font-size: 15px;
+  }
 /* The actual timeline (the vertical ruler) */
 
 .timeline {
@@ -353,7 +357,7 @@ p-0{
 
     position: absolute;
 
-    top: 22px;
+    top: 37px;
 
     width: 0;
 
@@ -380,7 +384,7 @@ p-0{
 
     position: absolute;
 
-    top: 22px;
+    top: 37px;
 
     width: 0;
 
