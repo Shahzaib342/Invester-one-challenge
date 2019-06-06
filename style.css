@@ -7,6 +7,8 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 /* modal css */
 #regModal{
     margin-top: 86px !important;
@@ -57,17 +59,17 @@ header.header_back {
     background-image: url(images/img-challenge.png);
     color: #fff;
     text-transform: capitalize;
-    padding: 61px;
-    background-repeat: round;
+    padding: 45px;
+    background-repeat: no-repeat;
 }
 
-.left_content {
+.left_content { 
     background-image: url(images/img-quiz.png);
     color: #fff;
     text-transform: capitalize;
     height: 100%;
-    padding: 65px;
-    background-repeat: round;
+    padding: 45px;
+    background-repeat: no-repeat;
 }
 .term_condition {
     font-size: 16px;
@@ -215,7 +217,7 @@ p-0{
     color: #fff;
     text-transform: capitalize;
     padding: 50px;
-    background-repeat: round;
+    background-repeat: no-repeat;
 }
 .jont_section img{
     padding: 30px;
@@ -229,7 +231,7 @@ p-0{
     text-transform: capitalize;
     padding: 50px;
     height: 100%;
-    background-repeat: round;
+    background-repeat: no-repeat;
 }
 .pad15 .lead{
     font-weight: 700 !important;
@@ -511,7 +513,7 @@ p-0{
 
     .left::after, .right::after {
 
-    left: 15px;
+    left: 19px;
 
     }
 
@@ -662,9 +664,9 @@ section.programe {
 
 .blog .carousel-indicators {
 
-	left: 0;
+    left: 0;
 
-	top: auto;
+    top: auto;
 
     bottom: -40px;
 
@@ -854,3 +856,103 @@ ol.order_list {
     
 
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+@media only screen and (max-width: 768px) {
+  .header_content h1 {
+        font-size: 43px !important;
+    }
+   .header_content p {
+        font-size: 20px !important;
+    }
+    .header_content label {
+        font-size: 24px !important;
+    }
+
+    .header_content ul li {
+        width: 60px !important;
+    }
+
+    .cup_images img {
+        margin-top: 430px !important;
+        left: 60px !important;
+    }
+    .time_container::after {
+        right: 317px !important;
+    }
+    .service_content_a2:after{
+        display: none !important;
+    }
+
+    .service_content_a1:after{
+        display: none !important;
+    }
+    .service_content_a3:after{
+        display: none !important;
+    }
+    .right_content {
+        padding: 8px !important;
+    }
+    .left_content {
+        padding: 8px !important;
+    }
+    .sub_heading h2 {
+        font-size: 21px !important;
+    }
+    .sub_heading h2:after {
+        width: 154px !important;
+    }
+    .pannel_judge h2:after {
+        width: 160px !important;
+    }
+    .catta_head h2{
+        font-size: 10px !important;
+    }
+   
+    .catta_head h2:after {
+        width: 177px !important;
+    }
+    .right_content_cup p {
+        font-size: 16px !important;
+    }
+    .cup_content_right {
+        width: 97% !important;
+    }
+    .cup_images img {
+       display: none;
+    }
+    .left_content_cup {
+        padding: 0px !important;
+    }
+    .catta_head_right {
+        float: left !important;
+        text-align: center !important;
+        margin-left: 55px;
+    }
+    .cup_content_left p {
+        font-size: 16px !important;
+    }
+    .catta_head {
+        padding: 11px 36px !important;
+    }
+    .cup_content_left {
+        width: 98% !important;
+    }
+
+    .sponser_content h2 {
+        padding-top: 38px !important;
+        padding-bottom: 10px !important;
+    }
+    .jont_section img {
+        padding: 12px !important;
+    }
+    .jont_section ul li {
+        margin-left: -30px !important;
+    }
+    .jont_section_sec h2{
+        margin-left: -50px !important;
+    }
+    .jont_section_sec img {
+        padding: 0px !important;
+        margin-left: -25px !important;
+    }
+}
